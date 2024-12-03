@@ -19,8 +19,15 @@
     }
 }
 
+.col-md-6 img {
+    width: 100%;
+    max-width: 500Spx;
+    /* Giới hạn chiều rộng ảnh */
+    border-radius: 8px;
+}
+
 .bg-menu {
-    background-color: #104358;
+    background-color: #4c2113;
     border-bottom: 1px solid silver;
     box-shadow: 0px 10px 15px -2px rgba(0, 0, 0, 0.14);
     height: 50px;
@@ -79,14 +86,14 @@
 .text-banner {
     width: 100%;
     height: 40px;
-    background-color: #145e81;
+    background-color: #4c2113;
 }
 
 .text-banner-p {
     font-size: x-large;
     text-align: center;
     padding: 0px;
-    color: #000;
+    color: w;
 }
 
 section .option_Category {
@@ -104,7 +111,7 @@ section .option_Category img {
     transition: all;
     width: 200px;
     height: 20ss0px;
-    border: 1px solid #104358;
+    border: 1px solid #4c2113;
     border-radius: 20px;
     margin-left: -20px;
 }
@@ -130,7 +137,7 @@ section .option_Category .option_Category_text a {
     font-style: normal;
     float: left;
     flex-direction: column;
-    color: rgb(17, 17, 17);
+    color: white(17, 17, 17);
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -157,7 +164,7 @@ section p {
 section .option a:hover {
     transition: 0.2s;
     color: goldenrod;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     padding-bottom: 3px;
     width: 150px;
 }
@@ -233,19 +240,19 @@ section .option a:hover {
     float: left;
     width: 400px;
     padding: 10px;
-    background-color: #e5ba92;
+    background-color: #f1debc;
 }
 
 .readmode-items {
-    color: black;
-    background-color: #104358;
+    color: white;
+    background-color: #f1debc;
     text-decoration: none;
 }
 
 footer {
     margin-top: 5%;
     height: 240px;
-    background-color: #104358;
+    background-color: #4c2113;
 }
 
 footer h5 {
@@ -385,9 +392,9 @@ input::-webkit-input-placeholder {
 } */
 
 .bt-abus {
-    border: #104358 1px soild;
+    border: #4c2113 1px soild;
     border-radius: 10px;
-    background-color: #104358;
+    background-color: #4c2113;
     font-size: medium;
 }
 
@@ -501,11 +508,11 @@ input::-webkit-input-placeholder {
 }
 
 .menu-item:hover {
-    color: #007bff;
+    color: #BF9369;
 }
 
 .menu-item:active {
-    background-color: #f1f1f1;
+    background-color: #4c2113;
     color: #007bff;
 }
 
